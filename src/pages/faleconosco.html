@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/faleconosco.css" />
-    <title>fale conosco</title>
+    <title>Fale conosco</title>
 </head>
 <body>
     <nav id="menu">
@@ -15,7 +15,35 @@
         </ul>
     </nav>
 
-    <br />
-    <h1>fale conosco</h1>
+    <div class="container">
+        <div class="formulario">
+            <form action="#" method="post">
+                <h1>Fale Conosco</h1>
+
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" list="perg-freq" placeholder="Selecione uma opção" required>
+                <datalist id="perg-freq">
+                    <option>Como funciona a garantia dos produtos?</option>
+                    <option>Qual é o prazo de entrega?</option>
+                    <option>Como fazer um pedido?</option>
+                </datalist>
+                <br/>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                <br/>
+
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Fone (Opcional)" pattern="" />
+                <br/>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Detalhe mais sua dúvida" cols="40" rows="10"></textarea>
+                <br>
+
+                <button type="Submit">Enviar</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
