@@ -2,8 +2,99 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1{
-    color: aqua;
+#menu{
+    background-color: #009b3a;
+    color: #ffffff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 5px 0px #00000030;
+}
+#menu > ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none
+}
+#menu > ul > li > a{
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.25s;
+}
+#menu > ul > li > a:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+
+
+
+#container-principal{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista-celulares{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-celular{
+    width: 200px;
+    background-color: #4681f4;
+    color: #ffffff;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0px #00000030;
+}
+
+.card-celular > img{
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.card-celular > p{
+    margin-top: 1rem;
+}
+.card-celular > p :last-child{
+    font-size: larger;
+    font-weight: bold;
+    color: #fedf00;
+
+}
+
+.card-celular > span{
+    text-decoration: line-through;
+    color: #bbbbbb;
+}
+
+.card-celular > a{
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #009b3a;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    transition: 0.25s;
+}
+
+.card-celular > a:hover{
+    background-color:#fedf00;
+    padding: 0.75rem;
 }
