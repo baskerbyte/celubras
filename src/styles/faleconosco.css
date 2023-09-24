@@ -4,36 +4,58 @@
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    background-color:#ccd7f2;
+    color: #002277;
+}
 
 #menu{
     background-color: #009b3a;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     position: sticky;
     top: 0;
+    text-align: center;
+    box-shadow: 1px 1px 5px 0px #00000030;
+}
+#svg-logo-container{
+    display: inline-block; 
+    height: 2rem; 
+    overflow: hidden;
+    margin-bottom: 0.5rem;
 }
 #menu > ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     list-style-type: none
+}
+#menu > ul > li{
+    width: 15%;
+    display: grid;
+    text-align: center;
+    place-items: center;
 }
 #menu > ul > li > a{
     color: #ffffff;
     font-size: large;
     font-weight: bold;
     text-decoration: none;
+    transition: 0.25s;
+}
+#menu > ul > li > a:hover{
+    font-size: larger;
+    text-decoration: underline;
 }
 
+
 .container {
-    margin-top: 3rem;
+    margin: 1rem 0 5rem 0;
     width: 100%;
     text-align: center;
 }
 
-.formulario {
-    height: 80vh;
-}
+.formulario {height: 80vh;}
 
 form {
     width: 30%;
@@ -41,10 +63,10 @@ form {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid white;
     border-radius: 50px;
     background-color: #4681f4;
     color: white;
+    box-shadow: 1px 1px 5px 0px #00000030;
 }
 
 label {
@@ -61,14 +83,19 @@ textarea {
     border: 1px solid #f0f0f0;
     border-radius: 10px;
 }
+input:focus, textarea:focus{
+    outline: 1px solid #fedf00;
+}
 
 button[type="Submit"] {
     padding: 10px;
     width: 50%;
-    border: 1px solid black;
+    border: 0px solid;
     border-radius: 10px;
     background-color: #33b249;
     color: white;
     font-weight: bolder;
     font-size: large;
+    box-shadow: 1px 1px 5px 0px #00000030;
+    cursor: pointer;
 }
