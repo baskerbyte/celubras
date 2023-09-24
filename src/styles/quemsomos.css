@@ -47,3 +47,29 @@ body{
     font-size: larger;
     text-decoration: underline;
 }
+
+
+#container-principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.card-desenvolvedor{
+    width: 300px;
+    margin: 30px 10px;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: 0.5s;
+}.card-desenvolvedor:hover{background-color: #ffffff50;}
+
+.container-imagem{
+    width: 200px;
+    height: 200px;
+    border: 1px solid  #002277;
+    border-radius: 200px;
+    margin: auto;
+    background-position: center; 
+    background-size: 100%;
+}
