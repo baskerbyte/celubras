@@ -116,3 +116,37 @@ body{
     color: #009b3a;
     padding: 0.75rem;
 }
+
+footer {
+    text-align: center;
+    background-color: #009b3a;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+
+footer .social {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer svg {
+    display: inline-block;
+    height: 2.5rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    fill: #D6D2CA;
+    text-decoration: none;
+}
+
+footer .dev {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
