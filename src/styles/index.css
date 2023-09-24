@@ -117,14 +117,15 @@ body{
     padding: 0.75rem;
 }
 
+
+
 footer {
     text-align: center;
     background-color: #009b3a;
-    color: white;
+    color: #d6d2ca;
     font-size: large;
     padding: 10px;
 }
-
 footer .social {
     width: 250px;
     margin: auto;
@@ -132,7 +133,6 @@ footer .social {
     display: flex;
     justify-content: space-between;
 }
-
 footer svg {
     display: inline-block;
     height: 2.5rem;
@@ -141,12 +141,12 @@ footer svg {
     fill: #D6D2CA;
     text-decoration: none;
 }
-
 footer .dev {
     text-align: center;
 }
-
 footer a {
-    color: white;
+    color: #d6d2ca;
     text-decoration: none;
+}footer a:hover {
+    text-decoration: underline;
 }
