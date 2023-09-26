@@ -78,6 +78,11 @@ body{
     text-decoration: line-through;
     color: gray;
 }
+
+#container-botoes {
+    margin-top: 25px;
+}
+
 button{
     cursor: pointer;
     font-size: large;
