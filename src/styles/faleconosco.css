@@ -58,7 +58,8 @@ body{
 .formulario {height: 80vh;}
 
 form {
-    width: 30%;
+    width: 90%;
+    max-width: 500px;
     padding: 20px 50px;
     display: inline-flex;
     flex-direction: column;
